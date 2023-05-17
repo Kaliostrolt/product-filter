@@ -1,0 +1,9 @@
+default:
+    autoload:
+        '': '%paths.base%/tests/features'
+    suites:
+        default:
+            paths:
+                - '%paths.base%/tests/features'
+            contexts:
+                - Tests\Behat\Context\FeatureContext

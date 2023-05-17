@@ -1,0 +1,28 @@
+{
+  "name": "us/us-product-filter",
+  "type": "library",
+  "description": "Product filter functionality package",
+  "homepage": "https://indicaonline.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Serge Kuzmin",
+      "email": "s.kuzmin@telesphorus.by",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1|^8.0"
+  },
+  "require-dev": {
+    "behat/behat": "^3.8",
+    "mockery/mockery": "^1.3",
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Us\\ProductFilter\\": "src/",
+      "Tests\\Behat\\Context\\": "tests/bootstrap/"
+    }
+  }
+}
